@@ -34,3 +34,8 @@ alert(10 / 4);
 
 // 除算
 alert(6 % 2);
+
+// 文字列の結合
+var str1 = "文字列の";
+var str2 = "結合";
+alert(str1 + str2);
