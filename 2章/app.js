@@ -1,5 +1,7 @@
 // 2章【JavaScriptの基本文法】
 
+
+
 // 変数
 // var 変数名 = 内容;
 var hello = "Hello World!";
@@ -52,3 +54,16 @@ else if(orange == apple){
 }else{
 	alert("みかんはリンゴより高い");
 }
+
+// 繰り返し処理
+// while文
+var max = 100;
+var num = 1;
+var count = 0;
+
+// while(条件){処理}　
+while(num < max){
+	num = num * 2;
+	count = count + 1;
+}
+alert("2を掛け続けて" + max + "超えるのに" + count + "回かかった。");
