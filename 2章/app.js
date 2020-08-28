@@ -1,7 +1,5 @@
 // 2章【JavaScriptの基本文法】
 
-
-
 // 変数
 // var 変数名 = 内容;
 var hello = "Hello World!";
@@ -67,3 +65,13 @@ while(num < max){
 	count = count + 1;
 }
 alert("2を掛け続けて" + max + "超えるのに" + count + "回かかった。");
+
+// for文
+var i;
+var num = 0;
+
+// for(初期値;条件;増減値){処理}
+for(i = 1; i < 11; i++){
+	num = num + ;
+}
+alert("1から10まで足し算をした結果、合計は" + num + "です。");
