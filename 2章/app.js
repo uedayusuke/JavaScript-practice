@@ -39,3 +39,16 @@ alert(6 % 2);
 var str1 = "文字列の";
 var str2 = "結合";
 alert(str1 + str2);
+
+// 条件分岐
+var orange = 120;
+var apple = 120;
+
+if(orange < apple){
+	alert("みかんはリンゴより安い");
+}
+else if(orange == apple){
+	alert("みかんとリンゴは同じ値段");
+}else{
+	alert("みかんはリンゴより高い");
+}
