@@ -16,7 +16,7 @@ var js_hand = getJShand();
 // 勝敗を決める関数にそれぞれの手を代入したものを呼び出し、judgeに代入
 var judge = winLose(user_hand, js_hand);
 
-// user_handが空だったときの対処
+// user_handが空だったとき=キャンセルされたときのの対処
 if (user_hand != null) {
 	alert("あなたの選んだ手は" + user_hand + "です。\n僕が選んだ手は" + js_hand + "です。\nよって結果はあなたの" + judge);
 } else {
