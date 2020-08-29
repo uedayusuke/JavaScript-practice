@@ -2,6 +2,7 @@
 
 // 宣言
 var alertString;
+alertString = addString("WecCamp");
 
 // alertで呼び出し
 alert(alertString);
