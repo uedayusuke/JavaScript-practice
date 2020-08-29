@@ -33,7 +33,8 @@ var js_hand = getJShand();
 var judge = winLose(user_hand, js_hand);
 
 // 結果を出力
-alert("あなたの選んだ手は" + user_hand + "です。僕が選んだ手は" + js_hand + "です。よって結果はあなたの" + judge);
+// \nで改行
+alert("あなたの選んだ手は" + user_hand + "です。\n僕が選んだ手は" + js_hand + "です。\nよって結果はあなたの" + judge);
 
 // ランダムに手を選択する関数
 function getJShand(){
