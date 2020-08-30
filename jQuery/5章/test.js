@@ -19,7 +19,7 @@ $(function(){
 	$(".box").show(1000);
 });
 
-// boxをf1.5秒けてadeout
+// boxを2秒かけてfadeout
 $(function(){
-	$(".box").fadeOut(1500);
+	$(".box").fadeOut(2000);
 });
