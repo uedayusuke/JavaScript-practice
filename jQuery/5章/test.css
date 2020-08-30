@@ -1,1 +1,6 @@
 /* 5章確認問題 */
+.box {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
