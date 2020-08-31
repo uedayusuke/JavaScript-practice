@@ -18,3 +18,13 @@ $(function(){
 	});
 });
 
+// class属性を追加する／解除する
+$(function(){
+	$(".box2").mouseover(function(){
+		$(".box2").addClass("box2-ext");
+	});
+	$(".box2").mouseout(function(){
+		$(".box2").removeClass("box2-ext");
+	});
+})
+

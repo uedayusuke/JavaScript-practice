@@ -5,3 +5,17 @@
 	height: 200px;
 	width: 200px;
 }
+
+.addClass {
+	margin-top: 10px;
+}
+
+.box2 {
+	background-color: #FF0000;
+	height: 200px;
+	width: 200px;
+}
+
+.box2-ext {
+	border: 10px solid black;
+}
