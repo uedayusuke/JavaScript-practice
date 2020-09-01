@@ -28,3 +28,9 @@ $(function(){
 	});
 })
 
+// "click"の追加
+$(function(){
+	$(".box3").on("click", function(){
+		$(".box3").addClass("box2-ext");
+	});
+});
