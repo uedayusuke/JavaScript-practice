@@ -33,4 +33,7 @@ $(function(){
 	$(".box3").on("click", function(){
 		$(".box3").addClass("box2-ext");
 	});
+	$(".box3").mouseout(function(){
+		$(".box3").removeClass("box2-ext");
+	});
 });
