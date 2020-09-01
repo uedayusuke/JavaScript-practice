@@ -19,3 +19,13 @@
 .box2-ext {
 	border: 10px solid black;
 }
+
+.click {
+	margin-top: 10px;
+}
+
+.box3 {
+	background-color: #FF0000;
+	height: 200px;
+	width: 200px;
+}
