@@ -35,5 +35,5 @@ $(function(){
 	});
 	$(".box3").mouseout(function(){
 		$(".box3").removeClass("box2-ext");
-	});
+	})
 });
