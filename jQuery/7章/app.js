@@ -1,4 +1,5 @@
 // 7章【thisとchildren】
+/*
 $(function(){
 	$(".bg1").on("click", function(){
 		$(".bg1").slideUp();
@@ -16,3 +17,12 @@ $(function(){
 		$(".bg4").slideUp();
 	});
 });
+*/
+
+// thisを使ってシンプルに
+// イベントのみ　→ "box1"がクッリックされた時のみ
+$(function(){
+	$(".box1").on("click", function(){
+		$(this).slideUp();
+	});
+})
