@@ -20,3 +20,14 @@ h1 {
 	margin: 0 auto 50px;
 	background-color: #eee;
 }
+
+#back {
+	/* position: fixed;で常に同じ位置を指定 */
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+#back img {
+	width: 50px;
+}
