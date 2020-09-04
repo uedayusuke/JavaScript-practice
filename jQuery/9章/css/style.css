@@ -1,1 +1,10 @@
 /*9章【トップに戻るを作ってみよう】*/
+
+/* htmlと別ファイルの時は文字コードを指定 */
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
