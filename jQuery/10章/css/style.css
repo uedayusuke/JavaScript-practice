@@ -20,3 +20,69 @@ h1{
 	margin: 0 auto 50px;
 	background-color: #eee;
 }
+
+/*
+ハンバーガーアイコン
+*/
+
+#hm-icon{
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 10;
+}
+
+.menu-trigger,
+.menu-trigger span {
+	display: inline-block;
+	transition: all .4s;
+	box-sizing: border-box;
+}
+
+.menu-trigger {
+	position: relative;
+	width: 50px;
+	height: 44px;
+}
+
+.menu-trigger span {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background-color: #000;
+	border-radius: 4px;
+}
+
+/*<span>の1個目から3個目にそれそれ付与*/
+.menu-trigger span:nth-of-type(1) {
+	top: 0;
+}
+
+.menu-trigger span:nth-of-type(2) {
+	top: 20;
+}
+
+.menu-trigger span:nth-of-type(3) {
+	bottom: 0;
+}
+
+/* .activeでクリックされてから離れるまでの効果を付与 */
+.menu-trigger.active span:nth-of-type(1) {
+	/* translateY()は要素を垂直方向に再配置する*/
+	/* rotate()は要素を2D回転させる */
+	-webkit-transform: translateY(20px) rotate(-45deg);
+	transform: translateY(20px) rotate(-45deg);
+	background-color: #fff;
+}
+
+.menu-trigger.active span:nth-of-type(2) {
+	/* opcityは透明度(0~1)0で完全に消える*/
+	opacity: 0;
+}
+
+.menu-trigger.active span:nth-of-type(3) {
+	-webkit-transform: translateY(-20px) rotate(45deg);
+	transform: translateY(-20px) rotate(45deg);
+	background-color: #fff;
+}
